@@ -1,0 +1,40 @@
+.newgroup{
+    flex: 0.65 1;
+    display: grid;
+    place-items: center;
+    padding: 10px;
+    width: 100%;
+    justify-content: center;
+    background: #c2ffe5b0;
+
+}
+.newgroup__members__list{
+    display: grid;
+    max-height: 40vh;
+    overflow: auto;
+}
+.newgroup__members__list label{
+    margin: 2px 0px;
+}
+.newgroup__create button{
+    background-color: #00296b !important;
+    color: white;
+}
+.newgroup__input{
+    display: grid;
+}
+.newgroup__input label{
+    margin-left: 2px;
+    font-weight: 800;
+    font-size: x-small;
+}
+.newgroup__input input{
+    outline-width: 0;
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    border: 0;
+    font-size: 22px;
+    margin-top: 10px;
+    
+}
